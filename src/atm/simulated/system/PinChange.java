@@ -69,8 +69,7 @@ public class PinChange extends JFrame implements ActionListener{
         clear.addActionListener(this);
         clear.setFont(new Font("System", Font.BOLD, 14));
         image.add(clear);
-        
-        
+      
         setSize(900,900);
         setLocation(300, 0);
         setVisible(true);

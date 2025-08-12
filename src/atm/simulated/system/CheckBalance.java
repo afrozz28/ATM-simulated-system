@@ -61,7 +61,6 @@ public class CheckBalance extends JFrame implements ActionListener{
         setVisible(false);
         new Transaction(pinnumber).setVisible(true);
     }
-    
     public static void main(String args[]){
         new CheckBalance("");
     }

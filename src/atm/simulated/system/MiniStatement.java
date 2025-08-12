@@ -59,7 +59,6 @@ public class MiniStatement extends JFrame {
        }catch (Exception a){
            System.out.println(a);
        }
-        
         setSize(400, 600);
         setLocation(20, 20);
         getContentPane().setBackground(Color.WHITE);

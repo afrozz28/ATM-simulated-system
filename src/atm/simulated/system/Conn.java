@@ -6,6 +6,7 @@ public class Conn {
     
     Connection c;
     Statement s;
+    
     public Conn(){
         try {
             c= DriverManager.getConnection("jdbc:mysql:///atmsimulatedsystem", "root", "Yourpassword");
